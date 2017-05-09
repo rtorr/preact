@@ -5,7 +5,7 @@ import { enqueueRender } from '../render-queue.js';
 import { getNodeProps } from './index.js';
 import { diff, mounts, diffLevel, flushMounts, recollectNodeTree, removeChildren } from './diff.js';
 import { createComponent, collectComponent } from './component-recycler.js';
-import { removeNode } from '../dom.js';
+import { removeNode } from '../dom/index.js';
 
 /** Set a component's `props` (generally derived from JSX attributes).
  *	@param {Object} props

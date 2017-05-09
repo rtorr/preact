@@ -3,8 +3,8 @@ import { isSameNodeType, isNamedNode } from './index.js';
 import { buildComponentFromVNode } from './component.js';
 import { createNode, setAccessor } from '../dom/index.js';
 import { unmountComponent } from './component.js';
-import options from '../option.jss';
-import { removeNode } from '../dom.js';
+import options from '../option.js';
+import { removeNode } from '../dom/index.js';
 
 /** Queue of components that have been mounted and are awaiting componentDidMount */
 export const mounts = [];
