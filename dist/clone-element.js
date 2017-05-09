@@ -1,0 +1,1 @@
+import{extend}from'./util.js';import{h}from'./h.js';export function cloneElement(a,b){return h(a.nodeName,extend(extend({},a.attributes),b),2<arguments.length?[].slice.call(arguments,2):a.children)}

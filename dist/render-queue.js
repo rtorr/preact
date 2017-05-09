@@ -1,0 +1,1 @@
+import options from'./options.js';import{renderComponent}from'./vdom/component.js';let items=[];export function enqueueRender(a){!a._dirty&&(a._dirty=!0)&&1==items.push(a)&&(options.debounceRendering||setTimeout)(rerender)}export function rerender(){let a,b=items;for(items=[];a=b.pop();)a._dirty&&renderComponent(a)}

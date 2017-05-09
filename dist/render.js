@@ -1,0 +1,1 @@
+import{diff}from'./vdom/diff.js';export function render(a,b,c){return diff(c,a,{},!1,b,!1)}

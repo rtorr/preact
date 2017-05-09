@@ -1,0 +1,1 @@
+export function extend(a,b){for(let c in b)a[c]=b[c];return a}
