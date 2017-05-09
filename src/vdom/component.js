@@ -1,11 +1,11 @@
-import { SYNC_RENDER, NO_RENDER, FORCE_RENDER, ASYNC_RENDER, ATTR_KEY } from '../constants';
-import options from '../options';
-import { extend } from '../util';
-import { enqueueRender } from '../render-queue';
-import { getNodeProps } from './index';
-import { diff, mounts, diffLevel, flushMounts, recollectNodeTree, removeChildren } from './diff';
-import { createComponent, collectComponent } from './component-recycler';
-import { removeNode } from '../dom';
+import { SYNC_RENDER, NO_RENDER, FORCE_RENDER, ASYNC_RENDER, ATTR_KEY } from '../constants.js';
+import options from '../options.js';
+import { extend } from '../util.js';
+import { enqueueRender } from '../render-queue.js';
+import { getNodeProps } from './index.js';
+import { diff, mounts, diffLevel, flushMounts, recollectNodeTree, removeChildren } from './diff.js';
+import { createComponent, collectComponent } from './component-recycler.js';
+import { removeNode } from '../dom.js';
 
 /** Set a component's `props` (generally derived from JSX attributes).
  *	@param {Object} props

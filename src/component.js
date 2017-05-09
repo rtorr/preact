@@ -1,7 +1,7 @@
-import { FORCE_RENDER } from './constants';
-import { extend } from './util';
-import { renderComponent } from './vdom/component';
-import { enqueueRender } from './render-queue';
+import { FORCE_RENDER } from './constants.js';
+import { extend } from './util.js';
+import { renderComponent } from './vdom/component.js';
+import { enqueueRender } from './render-queue.js';
 
 /** Base Component class.
  *	Provides `setState()` and `forceUpdate()`, which trigger rendering.

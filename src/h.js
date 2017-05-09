@@ -1,5 +1,5 @@
-import { VNode } from './vnode';
-import options from './options';
+import { VNode } from './vnode.js';
+import options from './options.js';
 
 
 const stack = [];

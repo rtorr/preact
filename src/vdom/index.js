@@ -1,4 +1,4 @@
-import { extend } from '../util';
+import { extend } from '../util.js';
 
 
 /** Check if two nodes are equivalent.

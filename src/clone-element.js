@@ -1,5 +1,5 @@
-import { extend } from './util';
-import { h } from './h';
+import { extend } from './util.js';
+import { h } from './h.js';
 
 export function cloneElement(vnode, props) {
 	return h(

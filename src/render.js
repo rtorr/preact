@@ -1,4 +1,4 @@
-import { diff } from './vdom/diff';
+import { diff } from './vdom/diff.js';
 
 /** Render JSX into a `parent` Element.
  *	@param {VNode} vnode		A (JSX) VNode to render

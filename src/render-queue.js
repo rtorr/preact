@@ -1,5 +1,5 @@
-import options from './options';
-import { renderComponent } from './vdom/component';
+import options from './options.js';
+import { renderComponent } from './vdom/component.js';
 
 /** Managed queue of dirty components to be re-rendered */
 
